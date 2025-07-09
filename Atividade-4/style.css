@@ -1,0 +1,41 @@
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    border: rgb(37, 0, 248);
+    border-style: ridge;
+}
+
+main {
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    border: rgb(177, 245, 19);
+    border-style: ridge;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#importante {
+    border-top: 5px solid red;
+}
+
+
+.text {
+    font-style: italic;
+    background-color: rgba(96, 96, 255, 0.247);
+}
+
+footer {
+    background-color: darkslateblue;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    border: rgb(248, 0, 236);
+    border-style: ridge;
+}
