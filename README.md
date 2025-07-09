@@ -1,51 +1,54 @@
-Lista de Exercícios 3 – Desenvolvimento Web Básico
+# 📘 Lista de Exercícios 3 – Desenvolvimento Web Básico
 
-1. Crie um arquivo chamado index.html e monte nele a seguinte estrutura usando
-sempre tags semânticas:
-- Um <header> contendo um <h1> (título) e um <p> (parágrafo) introdutório.
-- Um <main> dividido em duas subseções:
-- Seção “Missão” com <h2> e <p>.
-- Seção “Visão” com <h2> e <p>.
-- Um <footer> com um <p> de copyright.
-2. Listas e Navegação - Em um arquivo listas.html:
-- Crie uma lista não ordenada (<ul>) com cinco hobbies seus, cada um em um
-<li>.
-- Crie uma lista ordenada (<ol>) descrevendo, em passos, como preparar uma
-receita simples, cada passo em um <li>.
-- Ao final, inclua um bloco de navegação (<nav>) com três links externos,
-usando <a href="URL_DO_SITE">Nome do Site</a>.
-3. Formulário de Feedback - Em arquivo feedback.html, construa um formulário
-que contenha:
+Este repositório contém os arquivos desenvolvidos como parte da **Lista de Exercícios 3** da disciplina de Desenvolvimento Web Básico. O objetivo é praticar o uso de HTML semântico, CSS, formulários, listas, navegação, Flexbox, Grid e responsividade.
+
+## 🧱 Estrutura dos Exercícios
+
+### 1. Página Principal – `index.html`
+Criação de uma estrutura básica utilizando tags **semânticas**:
+- `<header>` com um `<h1>` (título) e um `<p>` introdutório.
+- `<main>` dividido em duas seções:
+  - **Missão**: com `<h2>` e `<p>`.
+  - **Visão**: com `<h2>` e `<p>`.
+- `<footer>` com um `<p>` de copyright.
+
+### 2. Listas e Navegação – `listas.html`
+- Lista **não ordenada** (`<ul>`) com 5 hobbies pessoais.
+- Lista **ordenada** (`<ol>`) com passos para preparar uma receita simples.
+- Bloco de **navegação** (`<nav>`) com 3 links externos.
+
+### 3. Formulário de Feedback – `feedback.html`
+Formulário com os seguintes campos:
 - Nome
 - E-mail
-- Endereço Completo
-- Tipo de feedback
-- Campo para o Feedback
-- Botão de Envio
+- Endereço completo
+- Tipo de feedback (ex: sugestão, reclamação)
+- Campo para o conteúdo do feedback
+- Botão de envio
 
-4. CSS Básico e Box Model - Crie um arquivo styles.css e vincule-o em
-index.html:
-- Defina cores de fundo (background-color) e de texto (color) para <header>,
-<main> e <footer>.
-- Para cada uma dessas seções, aplique margin, padding e border de forma a
-evidenciar seus contornos.
+### 4. CSS Básico e Box Model – `styles.css`
+Estilização aplicada ao `index.html`:
+- Definições de **cores de fundo** e **cores de texto** para `<header>`, `<main>` e `<footer>`.
+- Aplicação de **margin**, **padding** e **borda** para evidenciar as seções.
 
-5. Seletores e Propriedades - No mesmo styles.css, adicione:
+### 5. Seletores e Propriedades
+Ainda no `styles.css`, foram adicionados:
+- Estilo para todos os `<h2>`:
+  - Aumento de `font-size`
+  - `text-decoration: underline`
+- Classe `.destaque`:
+  - Texto em **itálico**
+  - Leve **background-color**
+- ID `#importante`:
+  - `border-top` mais espessa aplicada a um `<p>` específico
 
-- Um estilo para todas as tags <h2> que aumente a font-size e aplique text-
-decoration: underline.
+### 6. Exercício com Grid e Flexbox
+- Galeria com 8 imagens e legendas organizadas com **CSS Grid**.
+- Galeria envolvida em um contêiner centralizado com **Flexbox**.
+- Layout responsivo com **media query** para ajustar o número de colunas em telas menores.
 
-- Uma classe .destaque que deixe o texto em itálico (font-style: italic) e aplique
-um leve background-color.
+### 7. Menu Hamburger
+- Menu "hamburger" visível apenas em telas com largura ≤ 600px.
+- O menu padrão é ocultado e o botão permite abrir/fechar a navegação.
 
-- Um ID #importante que adicione border-top mais espessa em um parágrafo
-específico.
-6. Exercício Grid e Flexbox - Monte uma galeria com oito imagens e legendas,
-organizadas por Grid. Além disso, envolva toda a galeria em um contêiner que
-utilize Flexbox para centralizar o conjunto na página e permitir que as figuras
-quebrem de linha quando a largura for limitada. Ajuste o número de colunas do
-Grid para telas menores por meio de media query.
-
-7. Menu Hamburger - implemente um menu “hamburger” que:
-- Apareça apenas em telas com largura ≤ 600 px.
-- Oculte a navegação padrão e abra/feche o menu ao ser clicado.
+---
